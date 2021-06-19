@@ -21,7 +21,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         <SidebarLink href='#feature'>Promoção</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute href='/'>Peça Agora</SidebarRoute>
+        <SidebarRoute href='/Size'>Peça Agora</SidebarRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );

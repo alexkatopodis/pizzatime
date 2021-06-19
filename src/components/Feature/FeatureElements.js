@@ -25,13 +25,14 @@ export const FeatureContainer = styled.div`
     font-size: clamp(1rem, 3vw, 2rem);
   }
 `;
-export const FeatureButton = styled.button`
+export const FeatureButton = styled.a`
   font-size: 1.4rem;
   padding: 0.6rem 3rem;
   border: none;
   background: #ffc500;
   color: #000;
   transition: 0.2s ease-out;
+  text-decoration: none;
 
   &:hover {
     color: #fff;

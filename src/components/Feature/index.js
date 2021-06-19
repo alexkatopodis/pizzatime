@@ -6,7 +6,7 @@ const Feature = () => {
     <FeatureContainer id="feature">
       <h1>Promoção do Dia!</h1>
       <p>Na compra de Uma Catupiry, ganhe 10 pontos</p>
-      <FeatureButton>Peça Agora</FeatureButton>
+      <FeatureButton href='/Size'>Peça Agora</FeatureButton>
     </FeatureContainer>
   );
 };

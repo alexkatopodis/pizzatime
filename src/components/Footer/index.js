@@ -24,16 +24,16 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo href="#hero">Pizza St<span>OO</span>m</SocialLogo>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href='//www.linkedin.com/in/alex-katopodis-849a6252/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink href='//www.linkedin.com/in/alex-katopodis-849a6252/' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
+              <SocialIconLink href='//www.linkedin.com/in/alex-katopodis-849a6252/' target='_blank' aria-label='Youtube'>
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Twitter'
+              <SocialIconLink href='//www.linkedin.com/in/alex-katopodis-849a6252/' target='_blank' aria-label='Twitter'
               >
                 <FaTwitter />
               </SocialIconLink>
