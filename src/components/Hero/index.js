@@ -18,12 +18,12 @@ const Hero = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id='hero'>
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <HeroContent>
         <HeroItems>
-          <HeroH1>Pizza Stoom</HeroH1>
+          <HeroH1>Pizza St<span>oo</span> m</HeroH1>
           <HeroP>é Pizza, Sim</HeroP>
           <HeroBtn>Peça Agora</HeroBtn>
         </HeroItems>

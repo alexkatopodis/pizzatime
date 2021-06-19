@@ -4,8 +4,7 @@ import { Nav, NavIcon, Bars } from './NavbarElements';
 const Navbar = ({ toggle }) => {
   return (
     <>
-      <Nav>
-        {/* <NavLink to='/'></NavLink> */}
+      <Nav>        
         <NavIcon onClick={toggle}>
           <p>Menu</p>
           <Bars />

@@ -32,7 +32,7 @@ export const SocialMediaWrap = styled.div`
   }
 `;
 
-export const SocialLogo = styled(Link)`
+export const SocialLogo = styled.a`
   color: #fff;
   justify-self: start;
   cursor: pointer;
@@ -42,6 +42,10 @@ export const SocialLogo = styled(Link)`
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
+
+  span{
+    color: #e9ba23;
+  }
 `;
 
 export const SocialIcons = styled.div`

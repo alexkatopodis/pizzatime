@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ProductsContainer = styled.div`
   /* width: 100vw; */
   min-height: 100vh;
-  padding: 5rem calc((100vw - 1300px) / 2);
+  padding: 5rem calc((100vw - 1200px) / 2);
   background: #150f0f;
   color: #fff;
 `;
@@ -44,7 +44,8 @@ border: 3px solid rgba(249, 249, 249, 0.1);
 export const ProductsHeading = styled.h1`
   font-size: clamp(2rem, 2.5vw, 3rem);
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
+  
 `;
 
 export const ProductTitle = styled.h2`

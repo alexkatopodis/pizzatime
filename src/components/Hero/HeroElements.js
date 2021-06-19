@@ -39,7 +39,18 @@ export const HeroH1 = styled.h1`
   margin-bottom: 1rem;
   box-shadow: 3px 5px #e9ba23;
   letter-spacing: 3px;
+
+  span{
+    color: #e9ba23;
+    letter-spacing: -9px;
+
+    @media (min-width: 478px) {
+      letter-spacing: -19px;
+    }
+        
+   }
 `;
+
 
 export const HeroP = styled.p`
   font-size: clamp(2rem, 2.5vw, 3rem);
