@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import cover from '../../assets/images/pizza-online.png';
+import cover from '../../images/pizza-online.png';
 
 class Cover extends Component {
   render() {

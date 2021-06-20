@@ -16,8 +16,7 @@ export default function Routes() {
                 <Route path="/Order" exact component={HomeOrder} />
                 <Route path="/Pasta" component={Pasta} />
                 <Route path="/Size" component={Size} />
-                <Route path="/Filling" component={Filling} />
-               
+                <Route path="/Filling" component={Filling} />               
             </Switch>
       </BrowserRouter>
     );
