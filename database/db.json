@@ -94,6 +94,46 @@
         "filling": "Marguerita"
       },
       "id": 6
+    },
+    {
+      "data": {
+        "pasta": "Tradicional",
+        "size": "Brotinho (4 pedaços)",
+        "filling": "Portuguesa"
+      },
+      "id": 7
+    },
+    {
+      "data": {
+        "pasta": "Tradicional",
+        "size": "Média (6 pedaços)",
+        "filling": "Frango com Catupiry"
+      },
+      "id": 8
+    },
+    {
+      "data": {
+        "pasta": "Tradicional",
+        "size": "Brotinho (4 pedaços)",
+        "filling": "Portuguesa"
+      },
+      "id": 9
+    },
+    {
+      "data": {
+        "pasta": "Tradicional",
+        "size": "Grande (8 pedaços)",
+        "filling": "Portuguesa"
+      },
+      "id": 10
+    },
+    {
+      "data": {
+        "pasta": "Tradicional",
+        "size": "Média (6 pedaços)",
+        "filling": "Frango com Catupiry"
+      },
+      "id": 11
     }
   ]
 }
