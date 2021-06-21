@@ -20,4 +20,13 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+
+  @media (max-width: 478px) {  
+  
+    padding: 76px;
+    margin: 0;
+
+  
+}
 `;

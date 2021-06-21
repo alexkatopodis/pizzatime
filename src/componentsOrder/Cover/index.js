@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-
+import { ContainerCover } from './styles';
 import cover from '../../images/pizza-online.png';
 
 class Cover extends Component {
   render() {
     return(
-      <img src={cover} width="700" alt="Pizza Web" />
+      <ContainerCover>
+        <img src={cover} width="700" alt="Pizza Web" />
+      </ContainerCover>
     ); 
   }
 }

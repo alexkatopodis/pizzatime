@@ -19,6 +19,13 @@ export const Button = styled.button`
   &:hover {
     filter: brightness(90%);
   }
+
+  @media (max-width: 478px) {
+  
+    margin-left: -20px;
+    font-size: 14px;
+        
+  }
 `;
 
 export const Icon = styled.div`
