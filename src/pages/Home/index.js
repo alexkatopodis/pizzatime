@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import { HomeContainer, FormSection, Form, Title, Description } from './styles';
@@ -8,11 +8,12 @@ import Logo from '../../componentsOrder/Logo';
 import Cover from '../../componentsOrder/Cover';
 
 export default function HomeOrder() {
-    const history = useHistory(); 
+
+   const history = useHistory(); 
 
   function handleClick(e) {
     e.preventDefault();
-
+  
     history.push('/Pasta');
   }
   

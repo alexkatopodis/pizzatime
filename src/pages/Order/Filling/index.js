@@ -13,7 +13,7 @@ import api from '../../../services/api';
 export default function Filling() {
   const [pasta, setPasta] = useState('');
   const [size, setSize] = useState('');
-  const [filling, setFilling] = useState('');
+  const [filling, setFilling] = useState('');  
   const [id, setId] = useState('');
   const [listFilling, setListFilling] = useState('');
 
@@ -24,12 +24,19 @@ export default function Filling() {
 
     const value = e.target.value;
     setFilling(value);
+   
   }
 
   async function handleSubmit(e) {
     e.preventDefault();
 
     if (filling !== '' && filling !== 'Escolha um recheio') {
+      
+      if(filling === 'Portuguesa'){
+        const points = localStorage.getItem('points');
+        const newPoints = parseInt(points) + 10 ;
+        localStorage.setItem('points', newPoints);
+      }
       await api.post('orders', {
         data: {
           pasta: pasta,

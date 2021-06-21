@@ -1,6 +1,24 @@
 import styled from 'styled-components';
 import FeaturePic from '../../images/featured2.jpg';
 
+export const Details = styled.section`
+  width: 400px; 
+
+
+  /* &:  p {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    color: #737380;
+    font-size: 17px;
+  }
+
+  &:  h1 {
+    font-size: 22px;
+  } */
+`;
+
+
+
 export const HomeContainer = styled.div`
   width: 100%;
   /* max-width: 1120px; */
@@ -14,31 +32,4 @@ export const HomeContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  
-
-  
-`;
-
-export const FormSection = styled.section`
-  width: 100%;
-  max-width: 350px;
-  margin-right: 30px;
-  color: #f9f9f9;
-  padding: 50px;
-`;
-
-export const Form = styled.form`
-  margin-top: 60px;
-`; 
-
-export const Title = styled.h1`
-  font-size: 32px;
-  margin-bottom: 10px;
-`;
-
-export const Description = styled.p`
-  font-size: 18px;
-  color: #ffc500;
-  line-height: 32px;
-  margin-bottom: 50px;
 `;
