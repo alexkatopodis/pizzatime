@@ -655,6 +655,21 @@
         "filling": "Portuguesa"
       },
       "id": 76
+    },
+    {
+      "data": {
+        "pasta": "Tradicional",
+        "size": "Brotinho (4 pedaços)",
+        "filling": "Portuguesa"
+      },
+      "id": 77
+    },
+    {
+      "data": {
+        "size": "Mega (12 pedaços)",
+        "filling": "Calabresa"
+      },
+      "id": 78
     }
   ]
 }
